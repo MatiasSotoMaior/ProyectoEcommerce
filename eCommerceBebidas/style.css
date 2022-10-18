@@ -1,0 +1,50 @@
+.hideContent {
+    display: none;
+}
+
+.head {
+    height: 40vw;
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-size: 4.5em;
+    background-image: url(/img/fondoBebidas.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.bgColour {
+    background-color: rgba(114, 114, 114, 0.639);
+}
+
+.littleFont {
+    font-size: small;
+    color: rgba(0, 0, 0, 0.475);
+}
+
+.bigFont {
+    font-size: 3.5em;
+}
+
+.inHead {
+    padding-top: 0.5em;
+    padding-bottom: 2em;
+    width: 100%;
+    height: 100%!important;
+    size: 100%;
+    background-color: rgba(0, 0, 0, 0.459)!important;
+}
+
+.form {
+    padding-top: 2em;
+    padding-bottom: 13em;
+}
+
+.modalIndex {
+    z-index: 3000;
+}
+
+.navIndex {
+    z-index: 2000
+}
