@@ -10,6 +10,8 @@ const cartContent = document.getElementById("cartContent")
 const totalPrice = document.getElementById("totalPrice")
     //LLAMO AL BOTON DE VACIAR CARRITO
 const emptyCart = document.getElementById("emptyCart")
+    // LLAMO AL BOTON BUY
+const buy = document.getElementById("buy")
     //LLAMO AL CONTENEDOR DEL FORM LOG IN
 const impContent = document.getElementById("impContent")
     // LLAMO AL CONTENEDOR DEL FORM LOG IN
