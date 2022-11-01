@@ -108,7 +108,6 @@ window.addEventListener("DOMContentLoaded", async() => {
     function carga() {
         loader.remove()
     }
-})
 
 taskForm.addEventListener("submit", (e) => {
     e.preventDefault();
