@@ -20,7 +20,13 @@
 
 @media (max-width: 600px){
     .header {
-        background-image: url(/img/fondoBebidasChico.jpg);
+        background-image: url(https://firebasestorage.googleapis.com/v0/b/ecommercebebidasm.appspot.com/o/fondoBebidasChico.jpg?alt=media&token=7b86d989-ce8d-418e-9c36-83d4020a9d8d);
+    }
+}
+
+@media (max-width: 600px){
+    .imgCamion{
+        width: 5em;
     }
 }
 
