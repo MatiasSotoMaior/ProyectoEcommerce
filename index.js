@@ -63,6 +63,15 @@ window.addEventListener("DOMContentLoaded", async() => {
                 updateCart()
             })
 
+            buy.addEventListener("click",()=>{
+                cartContent.innerHTML=`
+                <div class="alert alert-success" role="alert">
+                Nos comunicaremos para coordinar el envio ¡Gracias por la compra!
+                </div>
+                `
+                })
+            })
+        
             // DATOS DE LOGIN
             logInBtn.addEventListener("click", () => {
                     impContent.classList.add("hideContent")
