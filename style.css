@@ -21,6 +21,7 @@
 @media (max-width: 600px){
     .header {
         background-image: url(https://firebasestorage.googleapis.com/v0/b/ecommercebebidasm.appspot.com/o/fondoBebidasChico.jpg?alt=media&token=7b86d989-ce8d-418e-9c36-83d4020a9d8d);
+        font-size: 3em;
     }
 }
 
@@ -41,7 +42,12 @@
 
 .bigFont {
     font-size: 3.5em;
+}
 
+@media (max-width: 600px){
+    .bigFont {
+        font-size: 2em;
+    }
 }
 
 .inHead {
